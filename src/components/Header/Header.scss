@@ -36,6 +36,7 @@
   color: #8CADDB;
   font-size: 1.3rem;
   margin-left: 2rem;
+  @include longshadow(darken(#8CADDB, 8% ));
 
   &:first-child {
     margin-left: 0;
